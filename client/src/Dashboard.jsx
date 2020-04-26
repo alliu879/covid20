@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Children} from "react";
+import React, { useState, useEffect } from "react";
 import Visualization from "./Visualization";
 import "./App.css";
 import { withStyles } from "@material-ui/core/styles";
@@ -76,8 +76,8 @@ function InputCard(props) {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Children variant="h6">Visualizations</Children>
-          <Children variant="h6">Volunteer</Children>
+          <Typography variant="h6">Visualizations</Typography>
+          <Typography variant="h6">Volunteer</Typography>
         </Toolbar>
       </AppBar>
       <Container>
